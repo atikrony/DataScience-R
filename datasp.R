@@ -1,4 +1,4 @@
-page = read_html(link)
+page = read_html(https://www.forbes.com/lists/global2000/?sh=770441b35ac0)
 
 companyname = page %>% html_nodes(".name") %>% html_text()
 country = page %>% html_nodes(".country") %>% html_text()
